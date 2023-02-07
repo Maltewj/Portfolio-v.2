@@ -87,12 +87,14 @@ h3{
     font-family: 'acumin-pro', sans-serif;
     font-size: 20px;
     font-weight: 700;
+    margin: 0;
 }
 
 p{
     font-family: 'acumin-pro', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    margin: 0;
 }
 /* Fonts end */
 
@@ -127,4 +129,91 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.project-img1{
+    background-image: url("images/project_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 246px;
+    height: 421px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-img1:hover{
+    background-position: right;
+}
+
+.project-img2{
+    background-image: url("images/project_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 246px;
+    height: 421px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-img2:hover{
+    background-position: right;
+}
+
+.project-img3{
+    background-image: url("images/project_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 246px;
+    height: 421px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-img3:hover{
+    background-position: right;
+}
+
+.project-img4{
+    background-image: url("images/project_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 246px;
+    height: 421px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.project-img4:hover{
+    background-position: right;
+}
+
+.project-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.projects-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
