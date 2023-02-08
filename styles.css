@@ -21,6 +21,11 @@ hr{
     background-color: #314C64;
 }
 
+.padding{
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
 .text-white{
     color: #FEFEFE;
 }
@@ -66,6 +71,12 @@ hr{
 
 .text-bold{
     font-weight: 800;
+}
+
+.hero-placement{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 /* utility classes end*/
 
@@ -216,4 +227,72 @@ p{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.contactinformation{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.hero-h1{
+    max-width: 320px;
+}
+
+.hero-p{
+    max-width: 285px;
+}
+
+@media screen and (min-width: 1024px){
+
+/* Fonts */
+
+h1{
+    font-family: 'acumin-pro', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2{
+    font-family: 'acumin-pro', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'acumin-pro', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-family: 'acumin-pro', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+/* Fonts end */
+
+.content-flex{
+    flex-direction: row;
+    max-width: 1086px;
+}
+
+.hero-h1{
+    max-width: 600px;
+}
+
+.hero-p{
+    max-width: 350px;
+    font-size: 21px;
+}
+
 }

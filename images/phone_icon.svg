@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Group_42" data-name="Group 42" transform="translate(-135 -2814)">
+    <rect id="Rectangle_517" data-name="Rectangle 517" width="26" height="26" rx="3" transform="translate(135 2814)"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(138.69 2817.708)">
+      <g id="phone" transform="translate(0.31 0.31)">
+        <rect id="Rectangle_503" data-name="Rectangle 503" width="19" height="19" transform="translate(0 -0.018)" fill="#fefefe" opacity="0"/>
+        <path id="Path_51" data-name="Path 51" d="M14.04,17.636A12.056,12.056,0,0,1,2,5.6,3.6,3.6,0,0,1,5.6,2a3.08,3.08,0,0,1,.6.055,2.963,2.963,0,0,1,.563.141.782.782,0,0,1,.508.586L8.341,7.473a.782.782,0,0,1-.2.719c-.1.109-.109.117-1.071.618a7.748,7.748,0,0,0,3.807,3.823c.508-.969.516-.977.625-1.079a.782.782,0,0,1,.719-.2l4.691,1.071a.782.782,0,0,1,.563.508,3.393,3.393,0,0,1,.149.571,3.729,3.729,0,0,1,.047.594A3.6,3.6,0,0,1,14.04,17.636Z" transform="translate(-0.483 -0.482)" fill="#fefefe"/>
+      </g>
+    </g>
+  </g>
+</svg>
