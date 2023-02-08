@@ -76,7 +76,7 @@ hr{
 .hero-placement{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 0px;
 }
 /* utility classes end*/
 
@@ -103,7 +103,7 @@ h3{
 
 p{
     font-family: 'acumin-pro', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin: 0;
 }
@@ -141,6 +141,12 @@ p{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    margin: auto;
+}
+
+.expertise-text{
+    max-width: 250px;
+    margin-bottom: 30px;
 }
 
 .project-img1{
@@ -155,6 +161,7 @@ p{
     justify-content: left;
     border-radius: 10px;
     transition: 2s;
+    cursor: pointer;
 }
 
 .project-img1:hover{
@@ -173,6 +180,7 @@ p{
     justify-content: left;
     border-radius: 10px;
     transition: 2s;
+    cursor: pointer;
 }
 
 .project-img2:hover{
@@ -191,6 +199,7 @@ p{
     justify-content: left;
     border-radius: 10px;
     transition: 2s;
+    cursor: pointer;
 }
 
 .project-img3:hover{
@@ -199,6 +208,7 @@ p{
 
 .project-img4{
     background-image: url("images/project_4.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     max-width: 246px;
@@ -209,6 +219,7 @@ p{
     justify-content: left;
     border-radius: 10px;
     transition: 2s;
+    cursor: pointer;
 }
 
 .project-img4:hover{
@@ -250,7 +261,19 @@ p{
     max-width: 285px;
 }
 
+.contactme-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 302px;
+    margin: auto;
+}
+
 @media screen and (min-width: 1024px){
+
+hr{
+    max-width: 1086px;
+}
 
 /* Fonts */
 
@@ -268,14 +291,14 @@ h2{
 
 h3{
     font-family: 'acumin-pro', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0;
 }
 
 p{
     font-family: 'acumin-pro', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     margin: 0;
 }
@@ -293,6 +316,35 @@ p{
 .hero-p{
     max-width: 350px;
     font-size: 21px;
+}
+
+.hero-placement{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.about-text{
+    max-width: 500px;
+}
+
+.about-section{
+    justify-content: center;
+    gap: 90px;
+}
+
+.projects-flex{
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contactinformation{
+    flex-direction: row;
+}
+
+.contactme-flex{
+    max-width: 600px;
 }
 
 }
