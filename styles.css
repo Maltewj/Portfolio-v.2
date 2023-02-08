@@ -344,7 +344,14 @@ p{
 }
 
 .contactme-flex{
-    max-width: 600px;
+    max-width: 450px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-flex{
+    width: 220px;
+    justify-content: center;
 }
 
 }
