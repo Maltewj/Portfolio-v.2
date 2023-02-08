@@ -7,18 +7,24 @@
     <title>Winther Jensen</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/qpa5stw.css">
+    <script src="hamburgermenu.js" defer></script>
 </head>
 <body>
 
     <header>
-        <nav class="menu">
+        <nav class="menu" id="menu">
             <a href=""><img class="logo" src="images/wintherjensen_logo.png" alt="logo"></a>
-            <ul class="nav-links">
+            <ul class="nav-links nav__link hide">
                 <li><a href="">Home</a></li>
                 <li><a href="">About me</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+            <div class="hamburgermenu hamburger" id="menu-button">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
         </nav>
     </header>
 
