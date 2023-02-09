@@ -86,6 +86,10 @@ hr{
 .margin-top{
     margin-top: 20px;
 }
+
+.dropshawdow{
+    filter: drop-shadow(0px 3px 3px #00000036);
+}
 /* utility classes end*/
 
 /* Fonts */
@@ -233,60 +237,60 @@ nav{
     background-image: url("images/project_1.png");
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 246px;
+    max-width: 230px;
     height: 421px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: left;
     border-radius: 10px;
-    transition: 2s;
+    transition: 0.3s;
     cursor: pointer;
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
 .project-img1:hover{
-    background-position: right;
+    scale: 105%;
 }
 
 .project-img2{
     background-image: url("images/project_2.png");
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 246px;
+    max-width: 230px;
     height: 421px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: left;
     border-radius: 10px;
-    transition: 2s;
+    transition: 0.3s;
     cursor: pointer;
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
 .project-img2:hover{
-    background-position: right;
+    scale: 105%;
 }
 
 .project-img3{
     background-image: url("images/project_3.png");
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 246px;
+    max-width: 230px;
     height: 421px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: left;
     border-radius: 10px;
-    transition: 2s;
+    transition: 0.3s;
     cursor: pointer;
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
 .project-img3:hover{
-    background-position: right;
+    scale: 105%;
 }
 
 .project-img4{
@@ -294,20 +298,41 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 246px;
+    max-width: 230px;
     height: 421px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: left;
     border-radius: 10px;
-    transition: 2s;
+    transition: 0.3s;
     cursor: pointer;
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
 .project-img4:hover{
-    background-position: right;
+    scale: 105%;
+}
+
+.project-img5{
+    background-image: url("images/some_reklame1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 230px;
+    height: 421px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: drop-shadow(0px 3px 3px #00000036);
+}
+
+.project-img5:hover{
+    scale: 105%;
 }
 
 .project-text{
@@ -387,11 +412,13 @@ nav{
     width: 100%;
     margin-bottom: 20px;
     margin-top: 32px;
+    border-radius: 10px;
 }
 
 .projects-examples2{
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .projects-h1{
@@ -495,7 +522,7 @@ nav {
 }
 
 .about-text{
-    max-width: 500px;
+    max-width: 425px;
 }
 
 .about-section{
@@ -642,6 +669,10 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
+}
+
+.aboutme-img{
+    height: 400px;
 }
 
 }
