@@ -10,15 +10,16 @@
     <script src="hamburgermenu.js" defer></script>
 </head>
 <body>
-
+    <!-- NAVBAR SECTION -->
+    
     <header>
         <nav class="menu" id="menu">
-            <a href=""><img class="logo" src="images/wintherjensen_logo.png" alt="logo"></a>
+            <a href="index.html"><img class="logo" src="images/wintherjensen_logo.png" alt="logo"></a>
             <ul class="nav-links nav__link hide">
-                <li><a href="">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburgermenu hamburger" id="menu-button">
                 <div class="hamburger-line"></div>
@@ -28,10 +29,9 @@
         </nav>
     </header>
 
+    <hr>
+
     <main>
-
-        <hr>
-
         <!-- HERO SECTION -->
 
         <section class="text-center">
@@ -89,7 +89,7 @@
 
         <!-- ABOUT ME SECTION -->
 
-        <section class="text-center padding">
+        <section class="text-center padding" id="about-me">
             <h2>Who am i?</h2>
             <div class="content-flex about-section">
                 <img src="images/malte_who_am_i.png" alt="Picture of Malte on the docks">
@@ -99,7 +99,7 @@
 
         <!-- PROJECTS SECTION -->
 
-        <section class="background-blue text-center padding">
+        <section class="background-blue text-center padding" id="projects">
             <h2 class="text-white">Projects</h2>
             <div class="projects-flex">
                 <div class="project-img1">
@@ -134,7 +134,7 @@
 
         <!-- CONTACT SECTION -->
 
-        <section class="text-center padding">
+        <section class="text-center padding" id="contact">
             <h2>Contact me</h2>
             <div class="contactme-flex">
                 <p>If you are interested in working together, don't hesitate to contact me on either of the following</p>

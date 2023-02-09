@@ -78,6 +78,10 @@ hr{
     justify-content: center;
     gap: 0px;
 }
+
+.margin-top{
+    margin-top: 20px;
+}
 /* utility classes end*/
 
 /* Fonts */
@@ -354,6 +358,57 @@ nav{
     color: #0F0F0F;
 }
 
+.tools-box{
+    border: solid 2px #0F0F0F;
+    border-radius: 20px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+}
+
+.tools-used{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.tools-used2{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.projects-examples1{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.projects-examples2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.projects-h1{
+    text-align: center;
+}
+
+.projects-h2{
+    text-align: center;
+}
+
+.youtube-video{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 302px;
+    margin: auto;
+    margin-top: 30px;
+}
+
 @media screen and (min-width: 1024px){
 
 hr{
@@ -528,6 +583,61 @@ nav {
 
 .nav-links li a:hover::after {
     width: 100%;
+}
+
+.projects-h1{
+    text-align: left;
+}
+
+.projects-h2{
+    text-align: left;
+}
+
+.maxwidth-desktop{
+    max-width: 1086px;
+    margin: auto;
+}
+
+.call-to-action2{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-examples1{
+    width: 70%;
+}
+
+.projects-examples2{
+    width: 70%;
+}
+
+.project-p{
+    max-width: 400px;
+}
+
+.project-img-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-used{
+    justify-content: left;
+}
+
+.tools-used2{
+    justify-content: left;
+}
+
+.youtube-video{
+    height: 610px;
+    max-width: 1086px;
+}
+
+.tools-video{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 }
