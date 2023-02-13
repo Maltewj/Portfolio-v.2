@@ -208,6 +208,10 @@ nav{
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
+.call-to-action:hover{
+    background-color: #6DD0DB
+}
+
 .expertise-icons{
     border-radius: 50%;
     background-color: #FEFEFE;
@@ -409,14 +413,12 @@ nav{
 }
 
 .projects-examples1{
-    width: 100%;
     margin-bottom: 20px;
     margin-top: 32px;
     border-radius: 10px;
 }
 
 .projects-examples2{
-    width: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -622,6 +624,12 @@ nav {
 
 .projects-h2{
     text-align: left;
+    margin: 0 0 30px 0;
+}
+
+.tools{
+    align-self: flex-start;
+    margin-left: 40px;
 }
 
 .maxwidth-desktop{
@@ -636,20 +644,23 @@ nav {
 }
 
 .projects-examples1{
-    width: 70%;
+    height: 400px;
+    margin: 0;
 }
 
 .projects-examples2{
-    width: 70%;
+    height: 400px;
+    margin: 0;
 }
 
 .project-p{
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .project-img-right{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .tools-used{
