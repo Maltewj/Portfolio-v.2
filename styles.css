@@ -241,6 +241,11 @@ nav{
     height: 450px;
 }
 
+.project-img-flex{
+    display: flex;
+    flex-direction: column;
+}
+
 .project-img1{
     background-image: url("images/project_1.png");
     background-size: 290px;
@@ -422,10 +427,10 @@ nav{
 }
 
 .projects-examples1{
-    margin-bottom: 20px;
-    margin-top: 32px;
+    margin: 32px auto 0 auto;
     border-radius: 10px;
-    padding: 5px
+    padding: 5px;
+    max-width: 302px;
 }
 
 .projects-h1{
@@ -658,11 +663,10 @@ nav {
 .projects-examples1{
     height: 400px;
     margin: 0;
-}
-
-.projects-examples2{
-    height: 400px;
-    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-width: 300px;
 }
 
 .project-p{
@@ -686,6 +690,12 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
+}
+
+.project-img-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project-img1{
