@@ -530,12 +530,16 @@ nav {
 }
 
 .about-text{
-    max-width: 425px;
+    max-width: 500px;
 }
 
 .about-section{
     justify-content: center;
     gap: 90px;
+}
+
+.about-titles{
+    text-align: left;
 }
 
 .projects-flex{
