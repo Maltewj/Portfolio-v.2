@@ -237,11 +237,16 @@ nav{
     margin-bottom: 30px;
 }
 
+.aboutme-img{
+    height: 450px;
+}
+
 .project-img1{
     background-image: url("images/project_1.png");
+    background-size: 290px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 230px;
+    max-width: 260px;
     height: 421px;
     width: 100%;
     display: flex;
@@ -259,9 +264,10 @@ nav{
 
 .project-img2{
     background-image: url("images/project_2.png");
+    background-size: 290px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 230px;
+    max-width: 260px;
     height: 421px;
     width: 100%;
     display: flex;
@@ -279,9 +285,10 @@ nav{
 
 .project-img3{
     background-image: url("images/project_3.png");
+    background-size: 290px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 230px;
+    max-width: 260px;
     height: 421px;
     width: 100%;
     display: flex;
@@ -299,10 +306,10 @@ nav{
 
 .project-img4{
     background-image: url("images/project_4.png");
-    background-size: cover;
+    background-size: 290px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 230px;
+    max-width: 260px;
     height: 421px;
     width: 100%;
     display: flex;
@@ -320,10 +327,10 @@ nav{
 
 .project-img5{
     background-image: url("images/some_reklame1.png");
-    background-size: cover;
+    background-size: 290px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 230px;
+    max-width: 260px;
     height: 421px;
     width: 100%;
     display: flex;
@@ -368,10 +375,12 @@ nav{
 
 .hero-h1{
     max-width: 320px;
+    margin: auto;
 }
 
 .hero-p{
     max-width: 285px;
+    margin: auto;
 }
 
 .contactme-flex{
@@ -416,11 +425,7 @@ nav{
     margin-bottom: 20px;
     margin-top: 32px;
     border-radius: 10px;
-}
-
-.projects-examples2{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 5px
 }
 
 .projects-h1{
@@ -515,6 +520,7 @@ nav {
 .hero-p{
     max-width: 350px;
     font-size: 21px;
+    margin: 0;
 }
 
 .hero-placement{
@@ -565,6 +571,8 @@ nav {
 
 .hero-phone{
     display: none;
+    max-width: 302px;
+    width: 100%;
 }
 
 .hero-desktop{
@@ -657,12 +665,6 @@ nav {
     max-width: 500px;
 }
 
-.project-img-right{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .tools-used{
     justify-content: left;
 }
@@ -682,8 +684,24 @@ nav {
     margin-left: 100px;
 }
 
-.aboutme-img{
-    height: 400px;
+.project-img1{
+    max-width: 220px;
+}
+
+.project-img2{
+    max-width: 220px;
+}
+
+.project-img3{
+    max-width: 220px;
+}
+
+.project-img4{
+    max-width: 220px;
+}
+
+.project-img5{
+    max-width: 220px;
 }
 
 }
