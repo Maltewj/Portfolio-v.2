@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/qpa5stw.css">
     <script src="hamburgermenu.js" defer></script>
+    <script src="slideeffect.js" defer></script>
+    <script src="slideeffect2.js" defer></script>
 </head>
 <body>
     <!-- NAVBAR SECTION -->
@@ -40,7 +42,7 @@
                     <h1 class="hero-h1">Malte Winther-Jensen</h1>
                     <img class="hero-phone" src="images/malte_portrait_hero.png" alt="Portrait picture of Malte">
                     <p class="hero-p">I am a content creator with a passion for new things and a drive towards more exciting challenges</p>
-                    <a href="#contact" class="call-to-action text-decoration-none">Contact me</a>
+                    <a href="#contact" class="call-to-action text-decoration-none hidden">Contact me</a>
                 </div>
                 <img class="hero-desktop" src="images/malte_portrait_hero.png" alt="Portrait picture of Malte">
             </div>
@@ -52,7 +54,7 @@
             <h2 class="text-white">My expertise</h2>
             <div class="content-flex">
 
-                <div class="expertise-icons-flex">
+                <div class="expertise-icons-flex hidden slide4">
                     <div class="expertise-icons">
                         <img src="images/camera_icon.png" alt="A camera icon">
                     </div>
@@ -60,7 +62,7 @@
                     <p class="text-white expertise-text">I can take photos for events, portraits and product photos as my main focus.</p>
                 </div>
 
-                <div class="expertise-icons-flex">
+                <div class="expertise-icons-flex hidden slide3">
                     <div class="expertise-icons">
                         <img src="images/video_icon.png" alt="A video icon">
                     </div>
@@ -68,7 +70,7 @@
                     <p class="text-white expertise-text">I have worked with different styles of video - e.g. sketches and commercials.</p>
                 </div>
 
-                <div class="expertise-icons-flex">
+                <div class="expertise-icons-flex hidden slide2">
                     <div class="expertise-icons">
                         <img src="images/adobe_icon.png" alt="An Adobe icon">
                     </div>
@@ -76,7 +78,7 @@
                     <p class="text-white expertise-text">I have experience in Adobes programs - mostly Premiere Pro and After Effects.</p>
                 </div>
 
-                <div class="expertise-icons-flex">
+                <div class="expertise-icons-flex hidden slide1">
                     <div class="expertise-icons">
                         <img src="images/lightbulb_icon.png" alt="A lightbulb icon">
                     </div>
@@ -89,7 +91,7 @@
 
         <!-- ABOUT ME SECTION -->
 
-        <section class="text-center padding2" id="about-me">
+        <section class="text-center padding2 hidden" id="about-me">
             <h2>About me</h2>
             <div class="content-flex about-section">
                 <img class="aboutme-img" src="images/malte_who_am_i.png" alt="Picture of Malte on the docks">
@@ -106,43 +108,41 @@
         <!-- PROJECTS SECTION -->
 
         <section class="background-blue text-center padding2" id="projects">
-            <h2 class="text-white">Projects</h2>
-            <div class="projects-flex">
-                <a class="text-decoration-none project-img1" href="photoworkshop.html">
-                    <div class="text-white2 project-text">
-                        <h3 class="projects-h3">Photo workshop</h3>
-                        <p>21/05/2022</p>
+                <div class="hidden">
+                    <h2 class="text-white">Projects</h2>
+                    <div class="projects-flex">
+                        <a class="text-decoration-none project-img1" href="photoworkshop.html">
+                            <div class="text-white2 project-text">
+                                <h3 class="projects-h3">Photo workshop</h3>
+                                <p>21/05/2022</p>
+                            </div>
+                        </a>
+                        <a class="project-img2 text-decoration-none" href="skatersketch.html">
+                            <div class="text-white2 project-text">
+                                <h3 class="projects-h3">Skater sketch</h3>
+                                <p>30/03/2022</p>
+                            </div>
+                        </a>
+                        <a class="project-img3 text-decoration-none" href="conceptvideo.html">
+                            <div class="text-white2 project-text">
+                                <h3 class="projects-h3">Concept video</h3>
+                                <p>19/12/2022</p>
+                            </div>
+                        </a>
+                        <a class="project-img5 text-decoration-none" href="someads.html">
+                            <div class="text-white2 project-text">
+                                <h3 class="projects-h3">SoMe advertisements</h3>
+                                <p>18/08/2022</p>
+                            </div>
+                        </a>
+                        <a class="project-img4 text-decoration-none" href="installationconcept.html">
+                            <div class="text-white2 project-text">
+                                <h3 class="projects-h3">Installation concept</h3>
+                                <p>29/04/2022</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
-
-                <a class="project-img2 text-decoration-none" href="skatersketch.html">
-                    <div class="text-white2 project-text">
-                        <h3 class="projects-h3">Skater sketch</h3>
-                        <p>30/03/2022</p>
-                    </div>
-                </a>
-
-                <a class="project-img3 text-decoration-none" href="conceptvideo.html">
-                    <div class="text-white2 project-text">
-                        <h3 class="projects-h3">Concept video</h3>
-                        <p>19/12/2022</p>
-                    </div>
-                </a>
-
-                <a class="project-img5 text-decoration-none" href="someads.html">
-                    <div class="text-white2 project-text">
-                        <h3 class="projects-h3">SoMe advertisements</h3>
-                        <p>18/08/2022</p>
-                    </div>
-                </a>
-
-                <a class="project-img4 text-decoration-none" href="installationconcept.html">
-                    <div class="text-white2 project-text">
-                        <h3 class="projects-h3">Installation concept</h3>
-                        <p>29/04/2022</p>
-                    </div>
-                </a>
-            </div>
+                </div>
         </section>
 
         <!-- CONTACT SECTION -->
@@ -152,17 +152,17 @@
             <div class="contactme-flex">
                 <p>If you are interested in working together, don't hesitate to contact me on either of the following</p>
                 <div class="contactinformation">
-                    <div class="contact-flex">
+                    <div class="contact-flex hidden slide3">
                         <img src="images/mail_icon.svg" alt="Mail icon">
                         <p>maltewj@gmail.com</p>
                     </div>
 
-                    <div class="contact-flex">
+                    <div class="contact-flex hidden slide2">
                         <img src="images/phone_icon.svg" alt="Phone icon">
                         <p>+45 20 52 35 62</p>
                     </div>
 
-                    <a class="linkedin" href="https://www.linkedin.com/in/malte-winther-jensen" target="_blanc"><div class="contact-flex">
+                    <a class="linkedin hidden slide1" href="https://www.linkedin.com/in/malte-winther-jensen" target="_blanc"><div class="contact-flex">
                         <img src="images/linkedin_icon.svg" alt="LinkedIn icon">
                         <p>LinkedIn Profile</p>
                     </div></a>
