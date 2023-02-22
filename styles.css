@@ -26,7 +26,17 @@ hr{
 }
 
 .padding{
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+
+.padding2{
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+.padding3{
+    padding-bottom: 40px;
     padding-top: 5px;
 }
 
@@ -99,19 +109,19 @@ hr{
 /* Fonts */
 
 h1{
-    font-family: 'acumin-pro', sans-serif;
-    font-size: 28px;
+    font-family: "montserrat", sans-serif;
+    font-size: 26px;
     font-weight: 800;
 }
 
 h2{
-    font-family: 'acumin-pro', sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h3{
-    font-family: 'acumin-pro', sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin: 0;
@@ -120,7 +130,7 @@ h3{
 p{
     font-family: 'acumin-pro', sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
 }
 /* Fonts end */
@@ -202,7 +212,7 @@ nav{
     padding: 0.6rem 0.8rem;
     width: fit-content;
     border-radius: 5px;
-    color: #0F0F0F;
+    color: #FEFEFE;
     font-family: 'acumin-pro', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -225,6 +235,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
     filter: drop-shadow(0px 3px 3px #00000036);
 }
 
@@ -383,7 +394,7 @@ nav{
 }
 
 .hero-h1{
-    max-width: 320px;
+    max-width: 340px;
     margin: auto;
 }
 
@@ -465,19 +476,19 @@ hr{
 /* Fonts */
 
 h1{
-    font-family: 'acumin-pro', sans-serif;
-    font-size: 50px;
+    font-family: "montserrat", sans-serif;
+    font-size: 46px;
     font-weight: 800;
 }
 
 h2{
-    font-family: 'acumin-pro', sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h3{
-    font-family: 'acumin-pro', sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 25px;
     font-weight: 700;
     margin: 0;
@@ -486,7 +497,7 @@ h3{
 p{
     font-family: 'acumin-pro', sans-serif;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
 }
 /* Fonts end */
@@ -626,9 +637,9 @@ nav {
 
 .nav-links li a::after {
     content: '';
-    background: #314C64;
+    background: #35CADB;
     width: 0%;
-    height: 4px;
+    height: 2px;
     position: absolute;
     bottom: 0;
     left: 0;
