@@ -366,6 +366,10 @@ nav{
     scale: 105%;
 }
 
+.projects-h3{
+    font-size: 19px;
+}
+
 .project-text{
     text-align: left;
     display: flex;
@@ -657,6 +661,10 @@ nav {
 .projects-h2{
     text-align: left;
     margin: 0 0 30px 0;
+}
+
+.projects-h3{
+    font-size: 22px;
 }
 
 .tools{
