@@ -110,13 +110,13 @@ hr{
 
 h1{
     font-family: "montserrat", sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 800;
 }
 
 h2{
     font-family: "montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
 }
 
@@ -415,6 +415,11 @@ nav{
     margin: auto;
 }
 
+.hero-phone{
+    width: 302px;
+    margin: auto;
+}
+
 .hero-desktop{
     display: none;
 }
@@ -606,6 +611,7 @@ nav {
 
 .hero-desktop{
     display: block;
+    width: 320px;
 }
 
 nav {
