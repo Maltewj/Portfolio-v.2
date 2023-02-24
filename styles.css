@@ -480,7 +480,7 @@ nav{
     opacity: 0;
     transition: all 1s;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     transition-delay: 300ms;
 }
 
